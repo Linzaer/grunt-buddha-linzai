@@ -1,0 +1,30 @@
+{
+  "name": "grunt-buddha-linzai",
+  "version": "0.0.1",
+  "description": "Annotations like sunshine.",
+  "repository": "git@github.com:Linzai1994/grunt-buddha-linzai.git",
+  "author": {
+    "name": "Linzai",
+    "email": "842875208@qq.com",
+    "url": "www.linzaiblog.sinaapp.com"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt": "~0.4.2",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
